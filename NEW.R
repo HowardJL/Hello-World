@@ -3,10 +3,7 @@ A_DataFrame <- c (2, 3, 4)
 double_Dara <- A_DataFrame*2
 Hey <- 8
 if(Hey > 8){
-print("Nice")
-} else 
-print("Nah")
-
-# [1] "Bingo"
+  print("Nice")
+} else {
+  print("Nah")
 }
-
