@@ -6,13 +6,11 @@ The project is aimed to study the Canadian demographics change through time, and
 
 A brief description of the Canadian demographic can be found [*here*](https://www.statcan.gc.ca/en/subjects-start/immigration_and_ethnocultural_diversity).
 
-The data set includes the number of cases and vaccine coverage of some common diseases. The time span includes from the 1970s to 2015, and the entities include independent data for nearly 200 countries, combined data for several continents, and overall data for the world.
-
 The Census data were retrieved(Scraped) from [*here*](https://en.wikipedia.org/wiki/Demographics_of_Canada).
 The original data officially published by the Canadian Government can be found [*here*](https://www150.statcan.gc.ca/n1/daily-quotidien/221026/dq221026b-eng.htm).
 
-The current trend analysis is mainly focused on the demographic amount Canadian immigrants and their impact on the Canadian population in the past 40 years.
-The virtualizations are currently performed through interactive wordcloud, line chart, and back-to-back bar plots.
+The current trend analysis is mainly focused on the population of Canadian immigrants from different source countries and their impact on the different ethnicities in the Canadian population in the past 40 years.
+The virtualizations are currently performed through interactive wordclouds, line charts, and back-to-back bar plots.
 More and broader analysis is always welcome in the projects.
 
 # Contribution
@@ -20,12 +18,16 @@ GXPY1 - Canadian demographic trend visualization of the past 40 years.
 
 # Zip file breakdown
 - README.md - Please read
-- Assessment#2 Code R. - The original prototype scripts are stored here.
-- CApopulation - The original unstructured prototype scripts of the data visualization application are stored here (app.R ).
+- Assessment2 Code.R - The original prototype scripts are stored here.
+- CApopulation(app.R) - The original unstructured prototype scripts of the data visualization application are stored here (app.R ).
 - ReportQuarto_file - The package where stored the quarto outputs.
-- ReportQuarto.qmd - The original construction file for report presentation.
-- ReportQuarto.html - The final report presentation.
-- Cover.docx- The cover sheet as the identifier
+- ReportQuarto.qmd - The final construction file for report presentation (Shiny included).
+- ReportQuarto.html - The final report presentation (local file).
+- Cover Sheet GXPY1.docx- The cover sheet as the identifier
+
+# Please Note!!!
+- Directly opening the html file locally might result in the loss of the interactive shiny output.
+- To access the **full report**, **please connect the ReportQuarto.qmd to a server** (Open and run document with **Rstudio** is recommended) to enable the R shiny app that is embedded in the Quarto R.
 
 
 # ***Warning*** 
