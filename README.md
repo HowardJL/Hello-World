@@ -19,13 +19,13 @@ More and broader analysis is always welcome in the projects.
 GXPY1 - Canadian demographic trend visualization of the past 40 years.
 
 # Zip file breakdown
-README.md - Please read
-Assessment#2 Code R. - The original prototype scripts are stored here.
-CApopulation - The original unstructured prototype scripts of the data visualization application are stored here (app.R ).
-ReportQuarto_file - The package where stored the quarto outputs.
-ReportQuarto.qmd - The original construction file for report presentation.
-ReportQuarto.html - The final report presentation.
-Cover.docx- The cover sheet as the identifier
+- README.md - Please read
+- Assessment#2 Code R. - The original prototype scripts are stored here.
+- CApopulation - The original unstructured prototype scripts of the data visualization application are stored here (app.R ).
+- ReportQuarto_file - The package where stored the quarto outputs.
+- ReportQuarto.qmd - The original construction file for report presentation.
+- ReportQuarto.html - The final report presentation.
+- Cover.docx- The cover sheet as the identifier
 
 
 # ***Warning*** 
