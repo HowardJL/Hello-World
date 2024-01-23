@@ -28,6 +28,7 @@ GXPY1 - Canadian demographic trend visualization of the past 40 years.
 # Please Note!!!
 - Directly opening the html file locally might result in the loss of the interactive shiny output.
 - To access the **full report**, **please connect the ReportQuarto.qmd to a server** (Open and run document with **Rstudio** is recommended) to enable the R shiny app that is embedded in the Quarto R.
+- **Trouble Shot:** If failed to run ReportQuarto.qmd document on your local device, please check the path assigned for write.csv on lines 115 and 179. Please assign them suitable paths for write.csv on your device. Meanwhile, please adjust the read.csv line for the shiny server on lines 228, 253, and 292. Please **match the same first path** you assigned for **lines 115 to line 228**, and also the **same second path** you assigned for **179 to lines 253 and 292**. I believe this would address the issue perfectly.
 
 
 # ***Warning*** 
