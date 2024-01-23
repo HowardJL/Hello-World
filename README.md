@@ -2,17 +2,31 @@
 
 # Description
 
-This project is intended to interact with the dataset from 2017 that was released by the World Health Organization, and as a guide to provide some basic cleaning, wrangling, and viewing ideas with R studio, and a brief discussion of some trends observed in the data set.
+The project is aimed to study the Canadian demographics change through time, and observe and identify the potential trend merged through data analysis and visualization. The source data came from the Canadian National Census collected before and after the reform in 1971. 
 
-The dataset can be found [*here*](https://github.com/owid/owid-datasets/blob/master/datasets/Vaccine%20Coverage%20and%20Disease%20Burden%20-%20WHO%20(2017)/Vaccine%20Coverage%20and%20Disease%20Burden%20-%20WHO%20(2017).csv).
+A brief description of the Canadian demographic can be found [*here*](https://www.statcan.gc.ca/en/subjects-start/immigration_and_ethnocultural_diversity).
 
 The data set includes the number of cases and vaccine coverage of some common diseases. The time span includes from the 1970s to 2015, and the entities include independent data for nearly 200 countries, combined data for several continents, and overall data for the world.
 
-Detailed information and explanations of the variables included can be found [*here*](https://www.who.int/data/gho/data/themes/topics/indicator-groups/indicator-group-details/GHO/immunization-coverage-estimates).
+The Census data were retrieved(Scraped) from [*here*](https://en.wikipedia.org/wiki/Demographics_of_Canada).
+The original data officially published by the Canadian Government can be found [*here*](https://www150.statcan.gc.ca/n1/daily-quotidien/221026/dq221026b-eng.htm).
+
+The current trend analysis is mainly focused on the demographic amount Canadian immigrants and their impact on the Canadian population in the past 40 years.
+The virtualizations are currently performed through interactive wordcloud, line chart, and back-to-back bar plots.
+More and broader analysis is always welcome in the projects.
 
 # Contribution
+GXPY1 - Canadian demographic trend visualization of the past 40 years.
 
-The current contribution to the project comes from GXPY1.
+# Zip file breakdown
+README.md - Please read
+Assessment#2 Code R. - The original prototype scripts are stored here.
+CApopulation - The original unstructured prototype scripts of the data visualization application are stored here (app.R ).
+ReportQuarto_file - The package where stored the quarto outputs.
+ReportQuarto.qmd - The original construction file for report presentation.
+ReportQuarto.html - The final report presentation.
+Cover.docx- The cover sheet as the identifier
+
 
 # ***Warning*** 
 A list of Rstudio packages is used in the current report presentation.
