@@ -1,4 +1,4 @@
-# **Examining Common Disease and Vaccination Coverage Data from WHO.**
+# **Canadian Demographic **
 
 # Description
 
@@ -15,7 +15,17 @@ Detailed information and explanations of the variables included can be found [*h
 The current contribution to the project comes from GXPY1.
 
 # ***Warning*** 
-
-Currently used R studio packages include "pacman", "tidyverse", "ggplot2", and "gridExtra". These may be automatically installed when viewing the existing work, please ***be aware*** of this before running.
+A list of Rstudio packages is used in the current report presentation.
+- "pacman": used for a quick environment setup.
+- "tidyverse": used for data cleaning and wrangling.
+- "robotstxt": used for launching web scraping.
+- "janitor": used for pre-cleaning data while scraping.
+- "dplyr": used for data cleaning and wrangling.
+- "tidyr": used for reshaping data frame.
+- "shiny": used for an environment for producing interactive applications
+- "wordcloud": used for data visualization for highlighting the most popular values.
+- "ggplot2": used for creating plots for data visualization purposes.
+- "plotly": used for creating plots and data visualization interactively.
+Please ***be aware*** the R packages on the list might be automatically installed while running the current work.
 
 This dataset currently used is from 2017, where the latest data is only updated to 2015, and for further research, performing on an updated dataset is always welcome.
